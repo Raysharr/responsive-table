@@ -1,0 +1,26 @@
+html { font-size: 100%; } /* font-size: 16px */
+body { font-family: sans-serif; font-size: 0.875rem; margin: 80px auto 80px; max-width: 800px; }
+body * { -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+.labeled-box header, .labeled-box .content { border: 1px solid #333; padding: 10px; width: 100%; }
+.labeled-box header { background: #333; color: #fff; }
+.labeled-box header * { font-weight: normal; line-height: 1; margin: 0; }
+
+.responsive-table { background: #fff; border-spacing: 0; border-collapse: separate; width: 100%; }
+.responsive-table.responsive-table-cols-fold tbody tr { cursor: pointer; }
+.responsive-table tr:hover { background: #f5f5f5; }
+.responsive-table th, .responsive-table td { border-left: 1px solid #ccc; padding: 10px; text-align: left; }
+.responsive-table th:first-child, .responsive-table td:first-child { border-left: none; }
+.responsive-table th { font-size: 14px; font-size: 0.875rem; font-weight: bold; }
+.responsive-table td { font-size: 13px; font-size: 0.8125rem; border-top: 1px solid #ccc; }
+.responsive-table .row-detail-wrapper { background: #eee; }
+.responsive-table .row-detail-wrapper:hover { background: #eee; }
+.responsive-table .row-detail-content { font-size: 12px; font-size: 0.75rem; margin: 0.5rem 0; list-style: none; padding: 0; }
+.responsive-table .row-detail-content-el { padding-top: 0.3125rem; }
+.responsive-table .row-detail-content-el:first-child { padding-top: 0; }
+.responsive-table .cell-header { font-weight: bold; margin-right: 0.3125rem; }
+.responsive-table .hide-row, .responsive-table .hide-cell, .responsive-table .hide-responsive-row { display: none; }
+.responsive-table .first-column, .responsive-table .last-column { width: 50%; }
+.responsive-table .first-column { border-left: none; }
+.responsive-table .last-column { border-right: none; }
+.responsive-table td.first-column { background: url(../assets/img/plus.png) no-repeat 12px 50%; padding-left: 40px; position: relative; }
