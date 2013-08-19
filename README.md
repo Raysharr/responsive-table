@@ -21,6 +21,7 @@ $('.responsive-table').responsiveTable({
 You should specify in cells in `thead` tag classes `not-fold` then this columns wont fold, when you reach site break point.
 
 ```bash
+<!-- HTML markup -->
 <table class="responsive-table">
     <thead>
 		<tr>
