@@ -18,7 +18,7 @@ $('.responsive-table').responsiveTable({
 });
 ```
 
-You should specify in cells in `thead` tag classes `not-fold` then this columns wont fold, when you reach site break point
+You should specify in cells in `thead` tag classes `not-fold` then this columns wont fold, when you reach site break point.
 
 ```bash
 <table class="responsive-table">
@@ -48,30 +48,6 @@ You should specify in cells in `thead` tag classes `not-fold` then this columns 
 			<td>content 2</td>
 			<td>content 2</td>
 			<td>content 2</td>
-		</tr>
-		<tr>
-			<td>3</td>
-			<td>content 3</td>
-			<td>content 3</td>
-			<td>content 3</td>
-			<td>content 3</td>
-			<td>content 3</td>
-		</tr>
-		<tr>
-			<td>4</td>
-			<td>content 4</td>
-			<td>content 4</td>
-			<td>content 4</td>
-			<td>content 4</td>
-			<td>content 4</td>
-		</tr>
-		<tr>
-			<td>5</td>
-			<td>content 5</td>
-			<td>content 5</td>
-			<td>content 5</td>
-			<td>content 5</td>
-			<td>content 5</td>
 		</tr>
 	</tbody>
 </table>
