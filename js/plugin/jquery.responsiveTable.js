@@ -301,7 +301,6 @@
     };
 
     $.fn.responsiveTable.options = {
-        tableClass: '.responsive-table',
         viewportClass: '.content',
         tableVisibleRowsCnt: 'auto',
         tableBreakPoint: 768
