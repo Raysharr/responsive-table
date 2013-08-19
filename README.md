@@ -10,7 +10,7 @@ ENJOY!!
 
 Usage example
 -------------
-You should in your js file write this code, where jQuery dom object is a refference to table which you wish to be responsive.
+Write this code in your JS file. jQuery dom object is a refference to table which you wish to make responsive.
 ```bash
 // Initialize responsive table plugin
 $('.responsive-table').responsiveTable({
