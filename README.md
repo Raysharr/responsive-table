@@ -7,3 +7,12 @@ If you ever think about how to make table responsive, this plugin is for you. Yo
 Fork my plugin and check it in action. Don't forget to leave feedback and report possible BUGS. 
 
 ENJOY!!
+
+Usage example
+-------------
+```bash
+// Initialize responsive table plugin
+$('.responsive-table').responsiveTable({
+    tableBreakPoint: 768
+});
+```
